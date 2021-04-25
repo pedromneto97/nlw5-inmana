@@ -1,6 +1,7 @@
 defmodule Inmana.Supplies.GetByExpiration do
-  alias Inmana.{Repo, Supply, Restaurant}
   import Ecto.Query
+
+  alias Inmana.{Repo, Restaurant, Supply}
 
   def call do
     today = Date.utc_today()
