@@ -17,7 +17,10 @@ defmodule InmanaWeb.ErrorView do
   end
 
   def render("error.json", %{result: %Changeset{} = changeset}) do
-    %{message: translate_errors(changeset)}
+    %{
+      message: "One or more params are invalid",
+      errors: translate_errors(changeset)
+    }
   end
 
   def render("error.json", %{result: message}) do
