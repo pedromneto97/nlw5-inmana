@@ -1,8 +1,8 @@
 defmodule Inmana.RestaurantTest do
-  use Inmana.DataCase
+  use Inmana.DataCase, async: true
 
-  alias Ecto.Changeset
   alias Inmana.{Restaurant, Repo}
+  alias Ecto.Changeset
 
   describe "changeset/1 " do
     test "When all params are valid, returns a valid changeset" do
