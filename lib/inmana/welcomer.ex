@@ -10,11 +10,11 @@ defmodule Inmana.Welcomer do
   end
 
   defp evaluate("Banana", 42) do
-    {:ok, "Você é especial!"}
+    {:ok, "You are special!"}
   end
 
   defp evaluate(name, age) when age >= 18 do
-    {:ok, "Bem vindo #{name}"}
+    {:ok, "Welcome #{name}"}
   end
 
   defp evaluate(name, _age) do
