@@ -1,4 +1,5 @@
 # Inmana
+[![Elixir CI](https://github.com/pedromneto97/nlw5-inmana/actions/workflows/elixir.yml/badge.svg?branch=master)](https://github.com/pedromneto97/nlw5-inmana/actions/workflows/elixir.yml) [![codecov](https://codecov.io/gh/pedromneto97/nlw5-inmana/branch/master/graph/badge.svg?token=C1W071J4A1)](https://codecov.io/gh/pedromneto97/nlw5-inmana)
 
 To start your Phoenix server:
 
